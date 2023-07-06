@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
+baseurl = "https://dashing-panda-01b2f7.netlify.app/"
+title = "PGDPIE"
 languageCode = "en-us"
 theme = "pgdpie_theme"
 
