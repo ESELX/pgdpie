@@ -1,0 +1,3 @@
+[submodule "themes/pgdpie_theme"]
+	path = themes/pgdpie_theme
+	url = git@github.com:steam228/pgdpie-theme.git
