@@ -88,44 +88,44 @@ theme = "pgdpie_theme"
   [params.work]
     enable = true
     title = "Final Projects 2022-23"
-    description = "Our first edition sign of success is inscribed in the quality of the final projects and in the enthusiasm expressed by the students in their final presentations. All went directly to our fabschools catalog so we can keep track of future developments and docuemntation."
+    description = "Our first edition sign of success is inscribed in the quality of the final projects and the enthusiasm expressed by the students in their final presentations. All went directly to our fabschools catalog so we can keep track of future developments and documentation."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      alt = "Animalgama"
+      title = "Animalgama"
+      subtitle = "Building blocks for learning about animals"
 
     [[params.work.row]]
       img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      alt = "UP"
+      title = "UP - Unidades Precisas"
+      subtitle = "A classroom game about units"
 
     [[params.work.row]]
       img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      alt = "GameleonEDU"
+      title = "GameleonEDU"
+      subtitle = "A platform that builds games for any content"
 
     [[params.work.row]]
       img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      alt = "Print out of the Box"
+      title = "Print out of the Box"
+      subtitle = "Printmaking pedagogical kit"
 
     [[params.work.row]]
       img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      alt = "Adrinkadeira"
+      title = "Adrinkadeira"
+      subtitle = "A game to create stories, poems, and writings"
 
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "Chão de Imaginação"
+      subtitle = "Origami tapestry for children"
 
   # Testimonials section
   [params.testimonials]
