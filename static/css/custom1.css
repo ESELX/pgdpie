@@ -46,6 +46,10 @@ h1, h2, h3 {
   background-blend-mode: multiply;
   }
 
+#fh5co-work {
+    background-blend-mode: multiply;
+}
+
   #fh5co-header #navbar li a {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
