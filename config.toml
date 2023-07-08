@@ -47,33 +47,33 @@ theme = "pgdpie_theme"
   # Hero section
   [params.hero]
     title = ""
-    subtitle = 'The postgraduate course in Design of Interactive Products for Education aims to prepare design and education professionals for seamless integration and coordination within multidisciplinary teams. Our program focuses on tasks related to the design, selection, and implementation of interactive products for education, covering a wide range of areas such as toys, open educational resources, interactive graphics, and prototyping in a Fablab environment. '
+    subtitle = 'Our postgraduate course in Design of Interactive Products for Education equips design and education professionals with the necessary skills for seamless integration within multidisciplinary teams, focusing on the design, selection, and implementation of interactive products for education across various domains including toys, open educational resources, interactive graphics, and Fablab prototyping.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
+    title = "Designer?"
+    description = "Elevate your expertise in interactive product design for education and seamlessly integrate with multidisciplinary teams through our postgraduate course."
+    # url = "#"
+    # button = "Know More"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
+    title = "Educator?"
+    description = "Unlock new possibilities in educational design by honing your skills in selecting and implementing interactive products for education through our specialized postgraduate program."
+    # url = "#"
+    # button = "Click Me"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
+    title = "Education and Design Professionals"
+    description = "Expand your horizons and boost your career by acquiring advanced skills in designing, selecting, and implementing interactive products for education through our postgraduate program."
+    # url = "#"
+    # button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
@@ -87,8 +87,8 @@ theme = "pgdpie_theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Final Projects 2022-23"
+    description = "Our first edition sign of success is inscribed in the quality of the final projects and in the enthusiasm expressed by the students in their final presentations. All went directly to our fabschools catalog so we can keep track of future developments and docuemntation."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
