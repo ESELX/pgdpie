@@ -93,7 +93,7 @@ theme = "pgdpie_theme"
   [params.services]
     enable = true
     title = "About the Course"
-    description = "Our course embraces an expansive and inclusive view of interactive products, encompassing a wide range of mediums, from apps to toys, and from digital to tangible experiences. The curriculum places emphasis on a final project, evaluated through the CU of Interactive Product Design for Education, which is integrated from the course's inception. Throughout the program, this project is formulated, developed, and guided across various Curricular Units, addressing relevant themes and tools. Notably, Fablab Benfica, as an indispensable prototyping space, will serve as a vital resource throughout the course."
+    description = "Our course embraces an expansive and inclusive view of interactive products, encompassing a wide range of mediums, from apps to toys, and from digital to tangible experiences. The curriculum places emphasis on a final project, evaluated through the CU that takes the same name as the full course, which is integrated from the course's inception. Throughout the program, this project is formulated, developed, and guided across various Curricular Units, addressing relevant themes and tools. Notably, Fablab Benfica, as an indispensable prototyping space, will serve as a vital resource throughout the course."
     subtitle = "Course structure"
     description2 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
   
@@ -130,38 +130,86 @@ theme = "pgdpie_theme"
     description = "Meet our team of Professors"
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Luís Frias"
+      position = "Professor"
+      description = ""
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
         ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Bernardo Gaeiras"
+      position = "Professor"
+      description = ""
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Madalena Matoso"
+      position = "Professor"
+      description = ""
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "André Sier"
+      position = "Professor"
+      description = ""
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+        ["icon-web", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Miguel Mata Pereira"
+      position = "Professor"
+      description = ""
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Miguel Soeiro"
+      position = "Professor"
+      description = ""
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
         ["icon-github", "#"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Pedro Mosca"
+      position = "Professor"
+      description = ""
       img = "person3.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
+      #  ["icon-twitter", "#"],
+      # ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
       ]      
 
