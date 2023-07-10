@@ -12,7 +12,7 @@ theme = "pgdpie_theme"
   googleFonts = "https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 
   # Meta
-  author = ""
+  author = "PGDIPE Coordination"
   description = ""
   email = ""
 
@@ -23,10 +23,10 @@ theme = "pgdpie_theme"
   [params.navigation]
     brand = "images/logoEN.svg"
     home = "Home"
+    services = "About"
     work = "Projects 2022-23"
+    about = "Team"
     testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -54,119 +54,54 @@ theme = "pgdpie_theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Designer?"
+    title = "Hey! Designer?"
     description = "Elevate your expertise in interactive product design for education and seamlessly integrate with multidisciplinary teams through our postgraduate course."
-    # url = "#"
+    # url = "#about"
     # button = "Know More"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Educator?"
+    title = "Teacher? Educator?"
     description = "Unlock new possibilities in educational design by honing your skills in selecting and implementing interactive products for education through our specialized postgraduate program."
-    # url = "#"
+    # url = "#about"
     # button = "Click Me"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Education and Design Professionals"
-    description = "Expand your horizons and boost your career by acquiring advanced skills in designing, selecting, and implementing interactive products for education through our postgraduate program."
-    # url = "#"
+    title = " other Education or Design Professionals?"
+    description = "Expand your horizons and boost your career by acquiring advanced skills in designing, selecting, and implementing interactive products for education."
+    # url = "#about"
     # button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
-  # Work section
-  [params.work]
-    enable = true
-    title = "Final Projects 2022-23"
-    description = "Our first edition sign of success is inscribed in the quality of the final projects and the enthusiasm expressed by the students in their final presentations. All went directly to our fabschools catalog so we can keep track of future developments and documentation."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Animalgama"
-      title = "Animalgama"
-      subtitle = "Building blocks for learning about animals"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "UP"
-      title = "UP - Unidades Precisas"
-      subtitle = "A classroom game about units"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "GameleonEDU"
-      title = "GameleonEDU"
-      subtitle = "A platform that builds games for any content"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Print out of the Box"
-      title = "Print out of the Box"
-      subtitle = "Printmaking pedagogical kit"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Adrinkadeira"
-      title = "Adrinkadeira"
-      subtitle = "A game to create stories, poems, and writings"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Chão de Imaginação"
-      subtitle = "Origami tapestry for children"
-
-  # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+  
     
-
-
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "About the Course"
+    description = "Our course embraces an expansive and inclusive view of interactive products, encompassing a wide range of mediums, from apps to toys, and from digital to tangible experiences. The curriculum places emphasis on a final project, evaluated through the CU of Interactive Product Design for Education, which is integrated from the course's inception. Throughout the program, this project is formulated, developed, and guided across various Curricular Units, addressing relevant themes and tools. Notably, Fablab Benfica, as an indispensable prototyping space, will serve as a vital resource throughout the course."
+    subtitle = "Course structure"
+    description2 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Objectives"
+      description = ""
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Educations &amp; Interface"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
     [[params.services.item]]
@@ -182,8 +117,8 @@ theme = "pgdpie_theme"
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Team"
+    description = "Meet our team of Professors"
 
     [[params.about.item]]
       name = "Jean Smith"
@@ -224,55 +159,128 @@ theme = "pgdpie_theme"
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "PGDIPE in Numbers"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
+      description = "Horas de Contacto"
+      icon = "icon-clock"
+      from = 0
+      to = 360
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "ECTS"
       icon = "icon-briefcase"
       from = 0
-      to = 89
-      interval = 50
-      speed = 5000
+      to = 60
+      interval = 5
+      speed = 3000
 
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
+      [[params.counters.item]]
+      description = "Final Project Hours"
+      icon = "icon-pencil"
       from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
+      to = 120
+      interval = 10
+      speed = 4000
 
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
+      [[params.counters.item]]
+      description = "Projects"
+      icon = "icon-paper"
       from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
+      to = 1
+      interval = 1
+      speed = 500
 
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+# Work section
+  [params.work]
+    enable = true
+    title = "Final Projects 2022-23"
+    description = "Our first edition sign of success is inscribed in the quality of the final projects and the enthusiasm expressed by the students in their final presentations. All went directly to our fabschools catalog so we can keep track of future developments and documentation."
+    footertext = 'The projects will link to their fabschools.pt catalog entries'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Animalgama"
+      title = "Animalgama"
+      subtitle = "Building blocks for learning about animals"
+      url = "https://sites.google.com/view/animalgama"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "UP"
+      title = "UP - Unidades Precisas"
+      subtitle = "A classroom game about units"
+      url = "https://sites.google.com/view/unidades-precisas/"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "GameleonEDU"
+      title = "GameleonEDU"
+      subtitle = "A platform that builds games for any content"
+      url = "https://gameleonedu.github.io/gameleon.edu/index.html"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Print out of the Box"
+      title = "Print out of the Box"
+      subtitle = "Printmaking pedagogical kit"
+      url = "https://m.facebook.com/artetransformer"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Adrinkadeira"
+      title = "Adrinkadeira"
+      subtitle = "A game to create stories, poems, and writings"
+      url = "https://sites.google.com/view/adinkradeira"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Chão de Imaginação"
+      subtitle = "Origami tapestry for children"
+      url = ""
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Campus de Benfica do IPL, 1549-003 Lisboa"],
+        ["icon-phone", "+351 217 100 000"],
+        ["icon-envelope", ""],
+        ["icon-globe", '<a href="http://fabschools.pt" target="_blank">PGDIPE is part of fabschools@ESELx/IPL</a>']
       ]
 
     name = "Name"
@@ -284,7 +292,7 @@ theme = "pgdpie_theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = 'cc-by PGDPIE coordination team at ESELx-IPL'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],
