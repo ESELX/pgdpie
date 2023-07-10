@@ -28,6 +28,8 @@ theme = "pgdpie_theme"
     about = "Team"
     testimonials = "Testimonials"
     contact = "Contact"
+    PT = "PT"
+  
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -39,15 +41,15 @@ theme = "pgdpie_theme"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+      url = "https://fabschools.pt/"
+      name = "PT"
+      weight = 10
   
   # Hero section
   [params.hero]
-    title = ""
-    subtitle = 'Our postgraduate course in Design of Interactive Products for Education equips design and education professionals with the necessary skills for seamless integration within multidisciplinary teams, focusing on the design, selection, and implementation of interactive products for education across various domains including toys, open educational resources, interactive graphics, and Fablab prototyping.'
+    title = "The postgraduate course in Design of Interactive Products for Education"
+    subtitle = 'equips design and education professionals with the necessary skills for seamless integration within multidisciplinary teams, focusing on the design, selection, and implementation of interactive products for education across various domains including toys, open educational resources, interactive graphics, and Fablab prototyping.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -94,6 +96,13 @@ theme = "pgdpie_theme"
     description = "Our course embraces an expansive and inclusive view of interactive products, encompassing a wide range of mediums, from apps to toys, and from digital to tangible experiences. The curriculum places emphasis on a final project, evaluated through the CU of Interactive Product Design for Education, which is integrated from the course's inception. Throughout the program, this project is formulated, developed, and guided across various Curricular Units, addressing relevant themes and tools. Notably, Fablab Benfica, as an indispensable prototyping space, will serve as a vital resource throughout the course."
     subtitle = "Course structure"
     description2 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
+  
+    subtitle3 = "Objectives"
+    description3 = ""
+    subtitle4 = "Course structure"
+    description4 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
+
+
 
     [[params.services.item]]
       title = "Objectives"
