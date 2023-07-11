@@ -85,10 +85,7 @@ theme = "pgdpie_theme"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
-
-  
     
-
   # Services section
   [params.services]
     enable = true
@@ -101,8 +98,6 @@ theme = "pgdpie_theme"
     description3 = ""
     subtitle4 = "Course structure"
     description4 = "The Postgraduate Course in Design of Interactive Products for Education has a total of 60 ECTS and a duration of 2 semesters, which aims at the deepening of skills in design and prototyping for the educational area, serving professionals both in the field of education and design wishing to develop products or projects within their institution or even embrace new opportunities in the area of interactive products for education."
-
-
 
     [[params.services.item]]
       title = "Objectives"
@@ -133,12 +128,12 @@ theme = "pgdpie_theme"
       name = "Luís Frias"
       position = "Professor"
       description = ""
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "lf.jpg"
+      alt = "Luís Frias"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-linkedin", "http://www.linkedin.com/in/luisfriasdesign"]
       ]
 
     [[params.about.item]]
@@ -150,7 +145,7 @@ theme = "pgdpie_theme"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+      #  ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
@@ -162,31 +157,31 @@ theme = "pgdpie_theme"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+      #  ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
       name = "André Sier"
       position = "Professor"
       description = ""
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "as.jpg"
+      alt = "André Sier"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-web", "#"]
+         ["icon-wwww", "https://andre-sier.com/"]
       ]
 
     [[params.about.item]]
       name = "Miguel Mata Pereira"
       position = "Professor"
       description = ""
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "mmp.jpg"
+      alt = "Miguel Mata Pereira"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/miguel-mata-pereira-28130027a"]
       ]
 
     [[params.about.item]]
@@ -198,7 +193,7 @@ theme = "pgdpie_theme"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-github", "#"]
+      #  ["icon-github", "#"]
       ]
 
     [[params.about.item]]
@@ -210,7 +205,55 @@ theme = "pgdpie_theme"
       social = [
       #  ["icon-twitter", "#"],
       # ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+      #  ["icon-dribbble", "#"]
+      ]
+
+      [[params.about.item]]
+      name = "Adriana Cardoso"
+      position = "Professor | Coordination Team"
+      description = ""
+      img = "ac.jpg"
+      alt = "Adriana Cardoso"
+      social = [
+      #  ["icon-linkedin", "https://www.linkedin.com/in/nunomonge"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-github", "#"]
+      ]
+
+      [[params.about.item]]
+      name = "Tiago Almeida"
+      position = "Professor | Coordination Team"
+      description = ""
+      img = "person3.jpg"
+      alt = "Tiago Almeida"
+      social = [
+      #  ["icon-linkedin", "https://www.linkedin.com/in/nunomonge"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-github", "#"]
+      ]  
+
+      [[params.about.item]]
+      name = "Nuno Monge"
+      position = "Professor | Coordination Team"
+      description = ""
+      img = "nm.jpg"
+      alt = "Nuno Monge"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/nunomonge"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-github", "#"]
+      ]   
+
+    [[params.about.item]]
+      name = "André Rocha"
+      position = "Professor | Coordinator"
+      description = ""
+      img = "ar.jpg"
+      alt = "André Rocha"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/steam228"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-github", "#"]
       ]      
 
   # Counters section
