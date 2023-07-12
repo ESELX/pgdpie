@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://dashing-panda-01b2f7.netlify.app/"
+baseurl = "http://pgdpie.designedu.pt/"
 title = "PGDPIE"
 languageCode = "en-us"
 theme = "pgdpie_theme"
