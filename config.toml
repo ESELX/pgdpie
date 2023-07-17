@@ -133,31 +133,31 @@ theme = "pgdpie_theme"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-        ["icon-linkedin", "http://www.linkedin.com/in/luisfriasdesign"]
+         ["icon-linkedin", "http://www.linkedin.com/in/luisfriasdesign"]
       ]
 
     [[params.about.item]]
       name = "Bernardo Gaeiras"
       position = "Professor"
       description = ""
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "bg.jpg"
+      alt = "Bernardo Gaeiras"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-      #  ["icon-linkedin", "#"]
+         ["icon-linkedin", "https://www.linkedin.com/in/bernardo-gaeiras/"]
       ]
 
     [[params.about.item]]
       name = "Madalena Matoso"
       position = "Professor"
       description = ""
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "person2.jpg"
+      alt = "Madalena Matoso"
       social = [
       #  ["icon-twitter", "#"],
       #  ["icon-facebook", "#"],
-      #  ["icon-linkedin", "#"]
+         ["icon-linkedin", "#"]
       ]
 
     [[params.about.item]]
@@ -188,10 +188,10 @@ theme = "pgdpie_theme"
       name = "Miguel Soeiro"
       position = "Professor"
       description = ""
-      img = "person2.jpg"
-      alt = "Person2"
+      img = "ms.jpg"
+      alt = "Miguel Soeiro"
       social = [
-      #  ["icon-twitter", "#"],
+        ["icon-www", "https://miguelsoeiro.com/"],
       #  ["icon-facebook", "#"],
       #  ["icon-github", "#"]
       ]
