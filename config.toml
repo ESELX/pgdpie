@@ -42,7 +42,7 @@ theme = "pgdpie_theme"
 
     # postpended links
     [[menu.postpend]]
-      url = "https://fabschools.pt/"
+      url = "https://pgdpiept.designedu.pt"
       name = "PT"
       weight = 10
   
